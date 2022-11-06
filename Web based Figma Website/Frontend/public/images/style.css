@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+@font-face {
+    font-family: gotham;
+    src: url("/public/gotham-6-cufonfonts/GothamLight.ttf") format(truetype);
+}
+
+
+@font-face {
+    font-family: gotham-med;
+    src: url("/public/gotham-6-cufonfonts/GothamMedium.ttf") format(truetype);
+}
+
+
+@font-face {
+    font-family: gotham-bold;
+    src: url("/public/gotham-6-cufonfonts/GothamBold.ttf") format(truetype);
+
+}
+
+
+
+.heading{
+    font-family: gotham;
+    text-transform: uppercase;
+    font-size: 65px;
+    color: #416887;
+    letter-spacing: 2%;
+   
+}
+
+.heading-text{
+    font-family: gotham;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #99A1A5;
+    margin-bottom: 2rem;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+
+
+.jumbotron{
+    margin: 0 !important;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+.custom-button{
+    font-family: gotham;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 2%;
+    background-color: #416887;
+    border: none;
+    border-radius: 6%;
+    padding: 0.8rem 3.8rem;
+    margin-top: 30px;
+   
+    margin-right: 20px;
+    margin-left: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+#left-image{
+    background-image: url("/public/bella-grace-image8\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+
+}
+
+#check{
+    position: absolute;
+    margin-top: 10%;
+}
+
+.vertical-line{
+    border-left: 2px solid #000;
+    height: 85%;
+    background: rgba(120, 137, 149, 0.75);
+   
+    margin-right: 2%;
+}
+.features-heading{
+    font-family: gotham !important;
+    text-transform: uppercase;
+    color: #416887;
+    letter-spacing: 0.02rem;
+    font-style: normal;
+    
+}
+
+
+.products{
+    background-color: #E1DFDD3B;
+}
+
+
+.features-text{
+    font-family: gotham !important;
+    color: #99A1A5;
+    letter-spacing: 0.02rem;
+    line-height: 36px;
+    font-size: 23px;
+    font-style: normal;
+}
+
+
+
+.model-title{
+    font-family: gotham !important;
+    text-transform: uppercase;
+    color: #416887;
+    letter-spacing: 0.02rem;
+    font-style: normal;
+    text-align: center;
+    padding-bottom: 2rem;
+
+
+}
+
+
+.model-text{
+    font-family: gotham !important;
+    color: #99A1A5;
+    letter-spacing: 0.0rem;
+    line-height: 27.6px;
+    font-size: 23px;
+    font-style: normal;
+    text-align: center;
+    padding-bottom: 2rem;
+
+}
+
+
+.avatar{
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    
+}
+
+.model-name{
+    font-family: Poppins !important;
+    color: #416887;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.model-name-btn{
+    font-family: Poppins !important;
+    color: #fff;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.model-id{
+    font-family: Poppins !important;
+    color: #99A1A5;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.feild{
+    border: none !important;
+    border-bottom: 2px solid #4FA0D5 !important;
+    
+}
+
+.contact-heading{
+    font-family: gotham-med !important;
+    text-transform: uppercase;
+    color: #416887;
+    font-style: normal;
+
+}
+
+.contact-form-box{
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(2, 0, 0, 0.5)), url("/public/Screen\ Shot\ 2021-07-21\ at\ 10.55\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50px;
+ 
+   
+
+
+}
+
+
+.form-bg{
+    background-color: white;
+    
+}
+
+.captcha-box{
+   
+    height: 60px;
+    background-color: #416887;
+}
+.error{
+    color: red;
+}
+
